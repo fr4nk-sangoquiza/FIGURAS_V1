@@ -8,7 +8,7 @@ namespace FIGURAS_V1
         {
             Figuras figura_fs = new Figuras();      // Instanciando una clase
             figura_fs.areaCuadrado();       //acedemos al método creado
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
