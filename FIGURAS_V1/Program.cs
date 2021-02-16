@@ -6,8 +6,18 @@ namespace FIGURAS_V1
     {
         static void Main(string[] args)
         {
-            Figuras figura_fs = new Figuras();      // Instanciando una clase
-            figura_fs.areaCuadrado();       //acedemos al método creado
+            /*
+            Figuras figura_cuad = new Figuras();      // Instanciando una clase
+            figura_cuad.areaCuadrado();               //acedemos al método creado
+            Console.ReadKey();
+  
+            Figuras figura_rec = new Figuras();
+            figura_rec.areaRectangulo();
+            Console.ReadKey();
+            */
+
+            Figuras figura_cir = new Figuras();
+            figura_cir.areaCirculo();
             Console.ReadKey();
 
         }
